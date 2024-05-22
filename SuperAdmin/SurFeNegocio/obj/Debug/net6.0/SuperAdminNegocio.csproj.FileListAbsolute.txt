@@ -1,0 +1,17 @@
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminNegocio.deps.json
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminNegocio.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminNegocio.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminDatos.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminEntidades.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminDatos.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\bin\Debug\net6.0\SuperAdminEntidades.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.csproj.AssemblyReference.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.AssemblyInfoInputs.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.AssemblyInfo.cs
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.csproj.CoreCompileInputs.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdm.586CC072.Up2Date
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\refint\SuperAdminNegocio.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\SuperAdminNegocio.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeNegocio\obj\Debug\net6.0\ref\SuperAdminNegocio.dll

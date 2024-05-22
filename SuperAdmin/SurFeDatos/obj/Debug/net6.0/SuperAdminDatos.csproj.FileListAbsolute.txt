@@ -1,0 +1,15 @@
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\bin\Debug\net6.0\SuperAdminDatos.deps.json
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\bin\Debug\net6.0\SuperAdminDatos.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\bin\Debug\net6.0\SuperAdminDatos.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\bin\Debug\net6.0\SuperAdminEntidades.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\bin\Debug\net6.0\SuperAdminEntidades.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.csproj.AssemblyReference.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.AssemblyInfoInputs.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.AssemblyInfo.cs
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.csproj.CoreCompileInputs.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdm.BF6E7E30.Up2Date
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\refint\SuperAdminDatos.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\SuperAdminDatos.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeDatos\obj\Debug\net6.0\ref\SuperAdminDatos.dll

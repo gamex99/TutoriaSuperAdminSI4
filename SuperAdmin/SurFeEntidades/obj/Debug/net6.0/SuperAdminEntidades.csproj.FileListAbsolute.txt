@@ -1,0 +1,11 @@
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\bin\Debug\net6.0\SuperAdminEntidades.deps.json
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\bin\Debug\net6.0\SuperAdminEntidades.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\bin\Debug\net6.0\SuperAdminEntidades.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\SuperAdminEntidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\SuperAdminEntidades.AssemblyInfoInputs.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\SuperAdminEntidades.AssemblyInfo.cs
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\SuperAdminEntidades.csproj.CoreCompileInputs.cache
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\SuperAdminEntidades.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\refint\SuperAdminEntidades.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\SuperAdminEntidades.pdb
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeEntidades\obj\Debug\net6.0\ref\SuperAdminEntidades.dll
