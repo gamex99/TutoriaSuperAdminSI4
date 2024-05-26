@@ -68,3 +68,4 @@ C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeFront\obj\
 C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeFront\obj\Debug\net6.0-windows\SuperAdminFront.pdb
 C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeFront\obj\Debug\net6.0-windows\SuperAdminFront.genruntimeconfig.cache
 C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeFront\obj\Debug\net6.0-windows\ref\SuperAdminFront.dll
+C:\Users\ParraX\Documents\GitHub\TutoriaSuperAdminSI4\SuperAdmin\SurFeFront\obj\Debug\net6.0-windows\SuperAdminFront.sourcelink.json
