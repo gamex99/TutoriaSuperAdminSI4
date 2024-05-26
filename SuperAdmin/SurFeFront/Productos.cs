@@ -162,6 +162,12 @@ namespace SurFeFront
 
         private void dataProductos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+          string rowindex = e.RowIndex.ToString();
+            int rowIndexint = e.RowIndex;
+
+            reselectRowCells(rowIndexint);
+
+
             ClaseCompartida.categoria = (int)dataProductos.Rows[e.RowIndex].Cells[6].Value;
             ClaseCompartida.barcode = (int)dataProductos.Rows[e.RowIndex].Cells[1].Value;
             ClaseCompartida.detalle = (string)dataProductos.Rows[e.RowIndex].Cells[2].Value;
@@ -230,6 +236,19 @@ namespace SurFeFront
             {
                 MessageBox.Show("Producto borrado correctamente", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+            }
+        }
+
+        private void reselectRowCells(int rowIndex)
+        {
+            if (rowIndex >= 0 && rowIndex < dataProductos.RowCount)
+            {
+                dataProductos.SelectionMode = DataGridViewSelectionMode.CellSelect; // Enable cell selection
+                for (int i = 0; i < dataProductos.Columns.Count; i++)
+                {
+                    dataProductos.Rows[rowIndex].Cells[i].Selected = true;
+                }
+               // dataProductos.SelectionMode = DataGridViewSelectionMode.FullRowSelect; // Restore full row selection
             }
         }
     }

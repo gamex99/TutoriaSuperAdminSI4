@@ -54,7 +54,7 @@
             // 
             btnConsulta.Location = new Point(93, 362);
             btnConsulta.Name = "btnConsulta";
-            btnConsulta.Size = new Size(75, 23);
+            btnConsulta.Size = new Size(91, 23);
             btnConsulta.TabIndex = 1;
             btnConsulta.Text = "Modificacion";
             btnConsulta.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             // 
             // btncons
             // 
-            btncons.Location = new Point(174, 362);
+            btncons.Location = new Point(190, 362);
             btncons.Name = "btncons";
             btncons.Size = new Size(75, 23);
             btncons.TabIndex = 2;
@@ -118,7 +118,7 @@
             // 
             // btneliminar
             // 
-            btneliminar.Location = new Point(255, 362);
+            btneliminar.Location = new Point(271, 362);
             btneliminar.Name = "btneliminar";
             btneliminar.Size = new Size(75, 23);
             btneliminar.TabIndex = 9;
