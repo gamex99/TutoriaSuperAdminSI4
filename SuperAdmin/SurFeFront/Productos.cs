@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
+using System.Data.Common;
 
 namespace SurFeFront
 {
@@ -28,6 +29,8 @@ namespace SurFeFront
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+            
             CargarProducto NewProd = new CargarProducto();
             NewProd.modo = EnumModoForm.Alta;
             NewProd.ShowDialog();
@@ -42,21 +45,30 @@ namespace SurFeFront
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CargarProducto ConsProd = new CargarProducto();
-            ConsProd.modo = EnumModoForm.Modificacion;
-            ConsProd.ShowDialog();
+            if (ClaseCompartida.barcode > 0)
+            {
 
-            
-           
-               
-                   
-                    buscarDatos();
-                
-                
-               
-                
-            
 
+
+                CargarProducto ConsProd = new CargarProducto();
+                ConsProd.modo = EnumModoForm.Modificacion;
+                ConsProd.ShowDialog();
+
+
+
+
+
+                buscarDatos();
+
+
+
+
+
+
+            } else
+            {
+                MessageBox.Show("Debe Seleccionar una fila");
+            }
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -90,7 +102,7 @@ namespace SurFeFront
 
         private void buscarDatos()
         {
-
+            dataProductos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
 
 
@@ -162,25 +174,50 @@ namespace SurFeFront
 
         private void dataProductos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-          string rowindex = e.RowIndex.ToString();
-            int rowIndexint = e.RowIndex;
+            int columnIndex = e.RowIndex;
+            // Comprobar si la selección actual incluye todo el DataGridView
+            if (dataProductos.SelectedRows.Count == dataProductos.RowCount)
+            {
+                // Mostrar un mensaje indicando que no se puede seleccionar todo el DataGridView
+                MessageBox.Show("No se puede seleccionar toda la tabla");
 
-            reselectRowCells(rowIndexint);
+                // Deseleccionar la selección actual
+                dataProductos.ClearSelection();
+            }
+            
+            
+            else
+            {
 
 
-            ClaseCompartida.categoria = (int)dataProductos.Rows[e.RowIndex].Cells[6].Value;
-            ClaseCompartida.barcode = (int)dataProductos.Rows[e.RowIndex].Cells[1].Value;
-            ClaseCompartida.detalle = (string)dataProductos.Rows[e.RowIndex].Cells[2].Value;
-            ClaseCompartida.stock = 100;
-            ClaseCompartida.precio = (decimal)dataProductos.Rows[e.RowIndex].Cells[3].Value;
-            ClaseCompartida.fecha_alta = (DateTime)dataProductos.Rows[e.RowIndex].Cells[5].Value;
+
+                string rowindex = e.RowIndex.ToString();
+                int rowIndexint = e.RowIndex;
+
+                reselectRowCells(rowIndexint);
+
+                
+                ClaseCompartida.categoria = (int)dataProductos.Rows[e.RowIndex].Cells[6].Value;
+                ClaseCompartida.barcode = (int)dataProductos.Rows[e.RowIndex].Cells[1].Value;
+                ClaseCompartida.detalle = (string)dataProductos.Rows[e.RowIndex].Cells[2].Value;
+                ClaseCompartida.stock = 100;
+                ClaseCompartida.precio = (decimal)dataProductos.Rows[e.RowIndex].Cells[3].Value;
+                ClaseCompartida.fecha_alta = (DateTime)dataProductos.Rows[e.RowIndex].Cells[5].Value;
+            }
         }
 
         private void btncons_Click(object sender, EventArgs e)
         {
-            CargarProducto ConsProd = new CargarProducto();
-            ConsProd.modo = EnumModoForm.Consulta;
-            ConsProd.ShowDialog();
+            if (ClaseCompartida.barcode > 0)
+            {
+                CargarProducto ConsProd = new CargarProducto();
+                ConsProd.modo = EnumModoForm.Consulta;
+                ConsProd.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Debe Seleccionar una fila");
+            }
         }
 
         private void btneliminar_Click(object sender, EventArgs e)
@@ -250,6 +287,20 @@ namespace SurFeFront
                 }
                // dataProductos.SelectionMode = DataGridViewSelectionMode.FullRowSelect; // Restore full row selection
             }
+        }
+        private bool isColumnSelected(DataGridView dataGridView, int columnIndex)
+        {
+            // Check if any cell in the specified column is selected
+            for (int rowIndex = 0; rowIndex < dataGridView.RowCount; rowIndex++)
+            {
+                if (dataGridView.Rows[rowIndex].Cells[columnIndex].Selected)
+                {
+                    return true; // At least one cell is selected
+                }
+            }
+
+            // If no cells are selected, the column is not selected
+            return false;
         }
     }
 }

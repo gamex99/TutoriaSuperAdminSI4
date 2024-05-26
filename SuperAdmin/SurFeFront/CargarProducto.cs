@@ -24,6 +24,7 @@ namespace SurFe
         public CargarProducto()
         {
             InitializeComponent();
+            
             getCategorias();
             dateTimePicker1.Enabled = false;
 
@@ -145,6 +146,9 @@ namespace SurFe
                 rbOtroNo.Visible = false;
                 rbOtroSi.Visible = false;
                 btnCargar.Text = "Modificar";
+                this.Text = "Modificar Producto";
+                label1.Text = "Modificar Producto";
+
             }
             if (modo == EnumModoForm.Consulta)
             {
@@ -155,6 +159,8 @@ namespace SurFe
                 rbOtroNo.Visible = false;
                 rbOtroSi.Visible = false;
                 btnCargar.Visible = false;
+                this.Text = "Consultar Producto";
+                label1.Text = "Consulta Producto";
             }
         }
         private void LimpiarControles()

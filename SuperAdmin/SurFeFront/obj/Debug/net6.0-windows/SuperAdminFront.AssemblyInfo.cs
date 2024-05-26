@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuperAdminFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+492b17a54ff1147828a6c77639f7bcb87ee7c354")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+054a35c7c724adf8e42fb91ea72eab31b09bc0e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuperAdminFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuperAdminFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

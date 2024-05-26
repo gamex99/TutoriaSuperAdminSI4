@@ -43,6 +43,7 @@
             rbOtroSi = new RadioButton();
             label3 = new Label();
             dateTimePicker1 = new DateTimePicker();
+            label5 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -196,12 +197,22 @@
             dateTimePicker1.Size = new Size(121, 23);
             dateTimePicker1.TabIndex = 16;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(434, 72);
+            label5.Name = "label5";
+            label5.Size = new Size(38, 15);
+            label5.TabIndex = 17;
+            label5.Text = "Fecha";
+            // 
             // CargarProducto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Menu;
             ClientSize = new Size(655, 213);
+            Controls.Add(label5);
             Controls.Add(dateTimePicker1);
             Controls.Add(label3);
             Controls.Add(groupBox1);
@@ -243,5 +254,6 @@
         private RadioButton rbOtroSi;
         private Label label3;
         private DateTimePicker dateTimePicker1;
+        private Label label5;
     }
 }
