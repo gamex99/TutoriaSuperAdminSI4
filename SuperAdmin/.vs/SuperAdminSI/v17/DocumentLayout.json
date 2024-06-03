@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|c:\\users\\parrax\\documents\\github\\tutoriasuperadminsi4\\superadmin\\surfefront\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|solutionrelative:surfefront\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|c:\\users\\parrax\\documents\\github\\tutoriasuperadminsi4\\superadmin\\surfefront\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|solutionrelative:surfefront\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|c:\\users\\parrax\\documents\\github\\tutoriasuperadminsi4\\superadmin\\surfefront\\cargarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|solutionrelative:surfefront\\cargarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|c:\\users\\parrax\\documents\\github\\tutoriasuperadminsi4\\superadmin\\surfefront\\cargarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|solutionrelative:surfefront\\cargarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|c:\\users\\parrax\\documents\\github\\tutoriasuperadminsi4\\superadmin\\surfefront\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F65AD91-42FC-459B-AA37-33639217BD0E}|SurFeFront\\SuperAdminFront.csproj|solutionrelative:surfefront\\informes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\Productos.cs",
-              "RelativeDocumentMoniker": "SurFeFront\\Productos.cs",
-              "ToolTip": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\Productos.cs",
-              "RelativeToolTip": "SurFeFront\\Productos.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAIwGgAAABSAAAA",
+              "Title": "Informes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\Informes.cs",
+              "RelativeDocumentMoniker": "SurFeFront\\Informes.cs",
+              "ToolTip": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\Informes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SurFeFront\\Informes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:00:37.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Productos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\Productos.cs",
-              "RelativeDocumentMoniker": "SurFeFront\\Productos.cs",
-              "ToolTip": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SurFeFront\\Productos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:00:14.159Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CargarProducto.cs",
-              "DocumentMoniker": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\CargarProducto.cs",
-              "RelativeDocumentMoniker": "SurFeFront\\CargarProducto.cs",
-              "ToolTip": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\CargarProducto.cs",
-              "RelativeToolTip": "SurFeFront\\CargarProducto.cs",
-              "ViewState": "AQIAAOgAAAAAAAAAAAAUwBABAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:49:38.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CargarProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\CargarProducto.cs",
-              "RelativeDocumentMoniker": "SurFeFront\\CargarProducto.cs",
-              "ToolTip": "C:\\Users\\ParraX\\Documents\\GitHub\\TutoriaSuperAdminSI4\\SuperAdmin\\SurFeFront\\CargarProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SurFeFront\\CargarProducto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:49:32.468Z",
+              "WhenOpened": "2024-06-03T20:43:09.102Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

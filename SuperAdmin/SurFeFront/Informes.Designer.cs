@@ -108,7 +108,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "Informes";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "MDIParent2";
+            Text = "INFORMES";
             menuStrip.ResumeLayout(false);
             menuStrip.PerformLayout();
             ResumeLayout(false);
